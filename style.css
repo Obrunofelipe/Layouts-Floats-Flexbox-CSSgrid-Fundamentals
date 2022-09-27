@@ -29,15 +29,12 @@ body {
   padding: 20px 40px;
   margin-bottom: 60px;
   /* height: 80px; */
+
+  display: flex;
+  justify-content: space-between;
 }
-h1{
-  float: left;
-}
-nav {
-  float: right;
-  font-size: 18px;
-  /* text-align: center; */
-}
+
+
 
 article {
   margin-bottom: 60px;
@@ -45,9 +42,10 @@ article {
   float: left;
 }
 
-.post-header {
-  margin-bottom: 40px;
-  /* position: relative; */
+.author-box{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 footer{
@@ -99,6 +97,7 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 ul,
@@ -128,6 +127,7 @@ li:last-child {
 #author {
   font-style: italic;
   font-size: 18px;
+  margin: 0 15px;
 }
 
 #copyright {
@@ -278,10 +278,11 @@ nav p {
   font-size: 18px;
 } */
 
-
+/*
 .author-img{
   float: left;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .author{
@@ -294,3 +295,4 @@ nav p {
   display: block;
   clear: both;
 }
+*/
